@@ -73,12 +73,13 @@ h2, .goo {
 }
 
 .two {
-    ;
+    padding: 5%;
 }
 
 .button_rose {
     background: #f44f88;
     padding: 10px 30px;
+    margin: 10px 0px;
     border-radius: 35px;
     text-align: center;
     color: #FFF;
@@ -98,6 +99,11 @@ h2, .goo {
     font-family: "Nico Moji", sans-serif;
     font-weight: bold;
 
+}
+
+.clear {
+    display: none;
+    margin: 3% auto;
 }
 
 .bg {
@@ -123,4 +129,18 @@ green_button {
 .logo {
     width: 15px;
     height: 15px;
+}
+
+.footer {
+    background: #23900b;
+    padding: 5%;
+}
+
+@media (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .clear {
+        display: block;
+    }
 }

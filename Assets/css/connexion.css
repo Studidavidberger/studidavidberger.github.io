@@ -1,0 +1,12 @@
+html, body {
+    background: #000;
+}
+
+.rainbow {
+    position: absolute;
+    right: 20%;
+    border-radius: 15px;
+    margin: 20%;
+    padding: 10%;
+    background: linear-gradient(-45deg, #0030a1, #F28);
+}
