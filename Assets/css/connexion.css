@@ -1,12 +1,18 @@
 html, body {
     background: #000;
+    text-align: center;
 }
 
 .rainbow {
-    position: absolute;
-    right: 20%;
-    border-radius: 15px;
-    margin: 20%;
-    padding: 10%;
-    background: linear-gradient(-45deg, #0030a1, #F28);
+    margin: 10% auto;
+    background: linear-gradient(-45deg, #0030a1, #F28, #9F2, #F28, #0030a1);
+    outline: 3px solid #d1abab;
+    height: 600px;
+    width: 300px;
 }
+.rainbow:hover {
+    cursor: pointer;
+    outline: 3px solid blue;
+    border-radius: 50% 50% 50% 50% / 70% 70% 30% 30% ;
+}
+

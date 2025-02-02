@@ -20,26 +20,26 @@
 }
 
 .fiche {
-    padding: 0px 50px;
-
+    padding: 20px 50px;
+    padding-top: 50px;
 }
 
-h1, .loo {
+.loo {
     color: #64cea8;
     padding-top: 100px;
 
 }
 
-h2, .goo {
+.goo {
     color:#46836d;
 
 }
 
-.p1 {
+.p1, h1 {
     color: #333;
 }
 
-.p2 {
+.p2, h2 {
     color: #666;
 }
 
@@ -65,7 +65,27 @@ h2, .goo {
     flex-direction: column;
 }
 
+.container_graph {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+}
+
+.data {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.data img {
+    max-width: 150px;
+}
+
 .box {
+    display: block;
+    justify-content: center;
+    padding-top: 100px;
 
 }
 
@@ -73,12 +93,15 @@ h2, .goo {
 }
 
 .two {
-    padding: 5%;
+    justify-content: right;
+    width: 75% ;
+    padding: 50px;
+
 }
 
 .button_rose {
     background: #f44f88;
-    padding: 10px 30px;
+    padding: 10px 10px;
     margin: 10px 0px;
     border-radius: 35px;
     text-align: center;
@@ -88,10 +111,13 @@ h2, .goo {
     font-weight: bold;
 
 }
+.button_rose:hover {
+    outline: orange solid 3px;
+}
 
 .button_green {
     background: #64CEA8;
-    padding: 10px 30px;
+    padding: 10px 10px;
     border-radius: 35px;
     text-align: center;
     color: #FFF;
@@ -100,21 +126,21 @@ h2, .goo {
     font-weight: bold;
 
 }
+.button_green:hover {
+    outline: orange solid 3px;
+
+}
 
 .clear {
     display: none;
-    margin: 3% auto;
+    margin: 5% auto;
 }
 
 .bg {
     width: 100%;
     height: 10rem;
     object-fit: cover;
-}
-
-green_button {
-    color: #d0eae5;
-
+    min-height: 20rem;
 }
 
 .gauche {
@@ -141,6 +167,17 @@ green_button {
         grid-template-columns: 1fr;
     }
     .clear {
+        flex-direction: column;
+    }
+    .container_graph {
         display: block;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .page.adaptive {
+        background: #19250a;
+        color: #dcb;
+        outline: 5px dashed #000;
     }
 }
