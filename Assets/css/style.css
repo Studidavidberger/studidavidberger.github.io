@@ -167,10 +167,10 @@
         grid-template-columns: 1fr;
     }
     .clear {
-        flex-direction: column;
+        display: block;
     }
     .container_graph {
-        display: block;
+        flex-direction: column;
     }
 }
 
