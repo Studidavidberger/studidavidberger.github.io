@@ -14,10 +14,6 @@ a {
 
 }
 
-img {
-    max-width: 100%;
-}
-
 a:hover {
     color: #64CEA8;
 
@@ -31,7 +27,13 @@ a:hover {
     font-family: "Nico Moji", sans-serif;
     max-width: 1200px;
     margin: 20px auto;
+    font-size: 18px;
 
+}
+
+.logo_greenwind {
+    height: 50%;
+    width: 50%;
 }
 
 .container_social {
@@ -82,41 +84,109 @@ a:hover {
     color: #46836d;
 }
 
-.p1, h1 {
+h1 {
+    padding-top: 5%;
     color: #333;
-    padding: 1% 0;
+}
+h2, .p1, .p2 {
+    padding-top: 5%;
+    color: #666;
+
 }
 
-.p2, h2 {
+.eolienne_green {
+    max-width: 100%;
+}
+
+.p1 {
+    color: #333;
+}
+
+.p2 {
     color: #666;
-    padding: 1% 0;
+}
+
+.links_navbar {
+    display: block;
+    white-space: nowrap;
+}
+
+.burger_menu {
+    display: none;
 }
 
 .fiche {
-    padding: 12% 5%;
-}
-
-.illustration {
-    position: relative;
-    bottom: 20%;
+    padding: 0 5%;
 }
 
 .bg_container {
     position: relative;
-    height: 100%;
-    width: 100%;
+    text-align: center;
 }
 
-.bg {
-    height: 100%;
-    width: 100%;
+.bg_section {
+    max-width: 100%;
     object-fit: cover;
-    min-height: 20rem;
-    position: relative;
+}
+
+.button_bg_01 {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: white;
+    width: auto;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.button_bg_02 {
+    position: absolute;
+    top: 10%;
+    left: 39%;
+    color: white;
+    width: auto;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.float_image_01 {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    width: 25%;
+}
+
+.titles {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.shape_container {
+    text-align: left;
+
+}
+
+.shape_outside {
+    float: right;
+    shape-outside: url("https://raw.githubusercontent.com/Studidavidberger/studidavidberger.github.io/refs/heads/main/Assets/img/kit.png");
+    width: 550px;
+    margin-right: 5%;
+}
+
+.button_element {
+    display: flex;
+    margin: 5% 54%;
+    white-space: nowrap;
 }
 
 .cap {
-    text-transform: capitalize;
+    text-transform: uppercase;
 
 }
 
@@ -125,6 +195,8 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     flex-direction: column;
 }
+
+
 
 .container_graph {
     display: flex;
@@ -150,11 +222,26 @@ a:hover {
 
 }
 
-.button {
-    margin: 10px !important;
+.button_white {
+    margin: 16px !important;
+    text-decoration: none;
+    background: #ccc;
+    padding: 5px 15px;
+    border-radius: 35px;
+    text-align: center;
+    color: #000;
+    font-family: "Nico Moji", sans-serif;
+
+}
+
+.button_white:hover {
+    background: #000;
+    color: #f44f88;
+    outline: 1px solid white;
 }
 
 .button_rose {
+    margin: 16px !important;
     text-decoration: none;
     background: #f44f88;
     padding: 5px 15px;
@@ -165,12 +252,14 @@ a:hover {
     font-weight: bold;
 
 }
+
 .button_rose:hover {
     outline: #000 solid 1px;
-    color: mistyrose;
+    color: #ffd0c7;
 }
 
 .button_green {
+    margin: 16px !important;
     background: #64CEA8;
     padding: 5px 15px;
     border-radius: 35px;
@@ -181,25 +270,93 @@ a:hover {
     font-weight: bold;
 
 }
+
 .button_green:hover {
     outline: #000 solid 1px;
-    color: #c7f1e4;
+    color: #b9fbe5;
 
 }
 
-.clear {
-    display: none;
-    padding: 2%;
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.footer {
-    background: #23900b;
+.container_boutique {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: break-spaces;
+    padding: 40px;
+
+}
+
+.container_boutique img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+.inscription, .inscription h1 {
+    text-align: left;
+    color: white;
+    background: #483;
+    padding: 4%;
+}
+
+.pile {
+    text-align: left;
+    color: white;
+    background: #483;
+    padding: 6%;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    width: 80%;
+    bottom: -5%;
+}
+
+.container_inscription {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin: 20px;
+    padding-right: 40px;
+}
+
+footer {
+    background: #303735;
+    color: #9c9a9a;
+    padding: 4%;
+    padding-top: 50%;
+}
+
+.container_footer {
+    position: relative;
+    top: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+}
+
+.section_padding {
     padding: 5%;
+    padding-bottom: 50%;
 }
 
 @media (max-width: 800px) {
+    .grid3 {
+        grid-template-columns: 1fr;
+    }
     .container {
         grid-template-columns: 1fr;
+    }
+    .bg_section {
+        height: 300px;
+        width: 100%;
     }
     .clear {
         flex-direction: column;
@@ -208,7 +365,32 @@ a:hover {
         display: block;
     }
     .illustration {
-        bottom: 0%;
+        bottom: 0;
+    }
+    .links_navbar {
+        display: none;
+    }
+    .burger_menu {
+        display: block;
+    }
+    .shape_outside {
+        max-width: 75%;
+    }
+    .button_element {
+        white-space: wrap;
+        margin: 0;
+    }
+    .titles {
+        top: 2%;
+        left: 5%;
+    }
+    .button_bg_01 {
+        top: 15%;
+    }
+    .button_bg_02 {
+        top: 8%;
+        left: 20%;
+
     }
 }
 
