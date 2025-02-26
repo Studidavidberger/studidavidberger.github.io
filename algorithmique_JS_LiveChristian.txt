@@ -1,0 +1,21 @@
+Exercice 1 :   afficher son carré.
+Exercice 2 :   afficher leur somme.
+
+Exercice 3 :   afficher tous les nombres pairs compris entre 1 et ce nombre.
+Exercice 4 :   afficher tous les nombres premiers compris entre 1 et ce nombre.
+Exercice 5 :   afficelr a table de multiplication de ce nombre.
+Exercice 6 :   afficher sa factorielle.
+Exercice 7 :   afficher son inverse.
+Exercice 8 :   afficher son plus grand diviseur.
+Exercice 9 :   afficher son plus petit diviseur.
+Exercice 10 :  afficher son pgcd avec 10.
+Exercice 11 :  afficher son ppcm avec 10.
+Exercice 12 :  afficher le plus grand commun diviseur de ces deux nombres.
+Exercice 13 :  afficher le plus petit commun multiple de ces deux nombres.
+Exercice 14 :  afficher sa suite de Fibonacci jusqu'à ce nombre.
+Exercice 15 :  afficher sa suite de Syracuse jusqu'à ce nombre.
+Exercice 16 :  afficher sa suite de Collatz jusqu'à ce nombre.
+Exercice 17 :  afficher sa suite de Lucas jusqu'à ce nombre.
+Exercice 18 :  afficher sa suite de Pell jusqu'à ce nombre.
+Exercice 19 :  afficher sa suite de Fibonacci généralisée jusqu'à ce nombre.
+Exercice 20 :  afficher sa suite de Lucas généralisée jusqu'à ce nombre.

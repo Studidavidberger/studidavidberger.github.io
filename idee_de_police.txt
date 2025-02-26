@@ -1,0 +1,50 @@
+Typographie navbar montserrat
+
+font-style: normal
+font-style: italic
+font-style: oblique
+
+font-weight: 100
+font-weight: 200
+font-weight: 300
+font-weight: normal
+font-weight: 500
+font-weight: 600
+font-weight: bold
+font-weight: 800
+font-weight: 900
+
+font-variant: normal
+font-variant: small-caps
+
+font-stretch: ultra-condensed
+font-stretch: extra-condensed
+font-stretch: condensed
+font-stretch: normal
+font-stretch: expand
+font-stretch: extra-expanded
+font-stretch: ultra-expanded
+
+style=""
+Arial, sans-serif
+Helvetica, sans-serif
+Noto Sans, sans-serif
+Georgia, serif
+Bookman, URW Bookman L, serif
+serif
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+Andale Mono, monospace
+DejaVu Sans Mono, monospace
+Courier, monospace
+
+police decorative
+style=""
+Impact, fantasy
+Luminari, fantasy
+Luminari, fantasy
+Jazz LET, fantasy
+Blippo, fantasy
+Stencil Std, fantasy
+Marker Felt, fantasy
+Trattatello, fantasy
+fantasy

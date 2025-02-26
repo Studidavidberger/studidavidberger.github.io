@@ -1,0 +1,28 @@
+Niveau débutant
+Exercice 1 : Créer une fonction simple
+Écrivez une fonction saluer qui prend un nom en paramètre et affiche "Bonjour [nom] !".
+Exercice 2 : Calcul de base
+Créez une fonction calculerCarre qui reçoit un nombre et renvoie son carré.
+Exercice 3 : Valeurs par défaut
+Écrivez une fonction afficherMessage qui accepte un message et un nombre de répétitions (par défaut 1) et affiche le message le nombre de fois indiqué.
+Niveau intermédiaire
+Exercice 4 : Travail avec des tableaux
+Créez une fonction filtrerPairs qui prend un tableau de nombres et retourne un nouveau tableau ne contenant que les nombres pairs.
+Exercice 5 : Fonctions récursives
+Écrivez une fonction récursive calculerFactorielle qui calcule la factorielle d'un nombre.
+Exercice 6 : Validation de données
+Créez une fonction validerEmail qui vérifie si une chaîne est une adresse email valide et retourne un booléen.
+Niveau avancé
+Exercice 7 : Fonctions anonymes
+Utilisez une fonction anonyme comme callback dans la fonction array_map pour transformer un tableau de nombres en leurs valeurs doublées.
+Exercice 8 : Fonctions de rappel
+Créez une fonction executerOperation qui accepte deux nombres et une fonction de rappel, puis exécute l'opération définie par la fonction de rappel sur ces nombres.
+Exercice 9 : Fonctions variadiques
+Écrivez une fonction calculerMoyenne qui peut accepter un nombre variable d'arguments et retourne leur moyenne.
+Niveau expert
+Exercice 10 : Générateurs
+Créez un générateur fibonacciGenerator qui génère les n premiers nombres de la suite de Fibonacci.
+Exercice 11 : Closures et contexte
+Écrivez une fonction creerCompteur qui retourne une closure permettant de gérer un compteur interne.
+Exercice 12 : Fonctions avancées pour manipulation d'objets
+Créez une fonction appliquerMethode qui accepte un objet, le nom d'une méthode et un tableau de paramètres, puis applique la méthode à l'objet avec les paramètres fournis.
