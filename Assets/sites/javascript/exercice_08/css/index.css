@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    color: pink;
+}
+
+html, body {background: black;}
+
+.carre {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.rond {
+    border-radius: 50%;
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+#joke {
+    display: block;
+    width: 800px;
+    height: 200px;
+    justify-items: center;
+    padding: 50px;
+
+}
+
+small {
+    padding-top: 150px;
+}
+
+.characters {
+    padding: 20px 100px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    margin: 1%;
+    outline: white solid 2px;
+    border-radius: 5px;
+}
+
+.characters:hover {
+    background-color: cornflowerblue;
+}
+
+.user_area {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+}
+
+iframe {
+    border-radius: 20px;
+    height: 500px;
+    padding: 0 20px;
+    margin: 0 50px;
+    color: pink;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.exos {
+    display: grid;
+    grid-template-columns: repeat(2, 99999999999999fr);
+}
+
+#dodamathbutton {
+    font-size: 32px;
+}
+
+.button {
+    background: red;
+    font-size: 32px;
+    text-align: center;
+}
+.defaut::after {
+    content: ' (' attr(class) ')';
+
+}
+
+.new {
+    content: ' (' attr(class) ')';
+}
+
+#input01 {
+
+}
+#input02 {
+
+}
+#toad {
+    padding: 20px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

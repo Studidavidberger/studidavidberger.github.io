@@ -1,0 +1,18 @@
+couleurs principales
+vert clair #64cea8
+vert foncé #46836d
+
+boutons
+rose #e34b78
+creme #f3c785
+vert #23a68c
+vert clair #d0eae5
+jaune #ffb660
+jaune clair #ffeddc
+bleu clair #d7ecf9
+bleu #0075e0
+
+titre
+gris #606161
+
+lien du modèle : https://www.greenminded.fr/
