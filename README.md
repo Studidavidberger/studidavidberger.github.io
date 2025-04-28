@@ -14,7 +14,7 @@
 
 
 # En cours ...
-Abbaye de cluny (sac)
-ce site meme (hub)
-Jeux de quiz (sjq)
-..
+- Abbaye de cluny (sac)
+- ce site meme (hub)
+- Jeux de quiz (sjq)
+- ..
