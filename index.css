@@ -1,0 +1,56 @@
+.bg_website, .main, .footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #181A1B;
+    color: white;
+}
+
+.hero_banner {
+    background-color: #242729 !important;
+}
+
+.inputs {
+    background-color: #242729 !important;
+    color: white !important;
+}
+
+.sitelink {
+
+}
+
+
+
+
+
+
+
+
+
+
+.custom-img16px {
+    max-width: 16px;
+    height: auto;
+}
+
+
+.custom-img32px {
+    max-width: 32px;
+    height: auto;
+}
+
+
+.custom-img64px {
+    max-width: 64px;
+    height: auto;
+}
+
+.custom-img128px {
+    max-width: 128px;
+    height: auto;
+}
+
+.custom-img256px {
+    max-width: 256px;
+    height: auto;
+}

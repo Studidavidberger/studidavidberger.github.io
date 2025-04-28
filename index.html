@@ -1,55 +1,82 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="Assets/img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/css/styles.css">
+    <link rel="stylesheet" href="index.css">
     <title>HUB</title>
-    <h1> HUB ACCES</h1>
-
-
-    <p>voici la liste des differnte site surlequel le travail.</p>
-    <div class="container">
-
-
-        <div>
-            <p>JAVASCRIPTe</p>
-            <a href="Assets/sites/javascript">
-                <img src="Assets/img/site01.png" alt="site01">
-            </a>
-        </div>
-
-        <div>
-            <p>GREEN WIND</p>
-        <a href="Assets/sites/greenwind/index.html">
-                <img src="Assets/img/site02.png" alt="greenwind_website">
-            </a>
-        </div>
-
-        <div>
-            <p>WEB AGENCY</p>
-            <a href="webagency.html">
-                <img src="Assets/img/site03.png" alt="site02">
-            </a>
-        </div>
-
-
-        <div>
-            <p>JAVA SCRIPT</p>
-            <a href="javascript.html">
-                <img src="Assets/img/site04.png" alt="site01">
-            </a>
-        </div>
-
-    </div>
-
-    <p>fin du site</p>
-
 </head>
 <body>
 
+<section class="d-grid text-center hero_banner">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="index.html">
+                <img class="custom-img128px" src="Assets/img/banner_hub.png" alt="banner david berger">
+            </a>
+            <div class="collapse navbar-collapse">
+                <form class="d-flex w-50" role="search">
+                    <input id="searchbar" class="form-control me-2 inputs" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success inputs" type="submit">Go!</button>
+                </form>
+                <input class="btn btn-outline-success" type="text" id="myInput" placeholder="Search by date.. 1999 12 31">
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="main d-grid text-center">
+
+        <div class="">
+            <h2>greenwind</h2>
+            <a href="Assets/gw/greenwind_index.html">
+                <img  class="custom-img128px" src="Assets/img/banner_GW.png" alt="banner green wind site">
+            </a>
+            <p>Greenwind, cree par david en 1924 lol.</p>
+        </div>
+
+    <div class="">
+        <h2>javascript</h2>
+        <a href="Assets/ejs/index.html">
+            <img  class="custom-img128px" src="Assets/img/banner_JS.png" alt="banner green wind site">
+        </a>
+        <p>Greenwind, cree par david en 1924 lol.</p>
+    </div>
+
+    <div class="">
+        <h2>webagency</h2>
+        <a href="Assets/wa/webagency_index.html">
+            <img  class="custom-img128px" src="Assets/img/banner_WA.png" alt="banner green wind site">
+        </a>
+        <p>Greenwind, cree par david en 1924 lol.</p>
+    </div>
+
+    <div class="">
+        <h2>pas encore fait</h2>
+        <a href="Assets/gw/greenwind_index.html">
+            <img  class="custom-img128px" src="Assets/img/banner_GW.png" alt="banner green wind site">
+        </a>
+        <p>Greenwind, cree par david en 1924 lol.</p>
+    </div>
+
+</section>
+
+<footer class="footer mx-auto py-3">
+    <div class="footer_container">
+        <p>Footer area</p>
+        <p> Go to my socials</p>
+        <img class="custom-img32px" src="Assets/img/pictogrammes/faceboog.svg" alt="faceboog">
+        <img class="custom-img32px" src="Assets/img/pictogrammes/instagram.svg" alt="faceboog">
+        <img class="custom-img32px" src="Assets/img/pictogrammes/mail.svg" alt="faceboog">
+        <img class="custom-img32px" src="Assets/img/pictogrammes/twitter.svg" alt="faceboog">
+        <img class="custom-img32px" src="Assets/img/pictogrammes/un%20autre%20site.svg" alt="faceboog">
+    </div>
+</footer>
 </body>
 </html>
