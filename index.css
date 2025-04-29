@@ -16,11 +16,19 @@
 }
 
 .sitelink {
-
+    color: grey !important;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding: 10px;
 }
 
-
-
+.sitelink:hover {
+    text-decoration: underline;
+    color: lightseagreen;
+    background: darkslateblue;
+}
 
 
 
