@@ -18,16 +18,21 @@
 .sitelink {
     color: grey !important;
     padding: 5px;
-    margin: 5px;
+    margin: 50px 10px;
     border-radius: 5px;
     border: 2px solid grey;
-    padding: 10px;
 }
 
 .sitelink:hover {
     text-decoration: underline;
     color: lightseagreen;
     background: darkslateblue;
+}
+
+.wrap {
+    display: flex;
+    text-wrap: wrap;
+
 }
 
 
