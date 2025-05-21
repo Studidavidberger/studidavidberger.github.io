@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html class="container-media"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-		<meta content="width=device-width, initial-scale=1" name="viewport">
-        <link rel="icon" sizes="16x16" href="https://axiomcity.github.io/images/logo.png">
-		<title> Axiom City</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
+<html id="site" class="container-media"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="icon" sizes="16x16" href="https://axiomcity.github.io/images/logo.png">
+    <title> Axiom City</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 <header>
     <nav>
         <div id="navbar" class="topnav">
             <a href="javascript:void(0);" onclick="ft_burger()" id="axiomcity_burger" class="logo" alt="axiom-city-menu">
-            <img src="img/logo2.png" style="max-height: 60px;"></a>
+                <img src="img/logo2.png" style="max-height: 60px;"></a>
             <div id="burger_links">
                 <a class="button" href="https://axiomcity.github.io/index.html">Menu</a>
                 <a class="button" href="https://axiomcity.github.io/chatroom.html">Discussions</a>
@@ -24,7 +24,7 @@
         </div>
         <div>
             <a href="javascript:void(0);" onclick="ft_burger()">
-            <img class="logo" style="max-height: 60px" src="img/burger01.png" alt="burger-img-open">
+                <img class="logo" style="max-height: 60px" src="img/burger01.png" alt="burger-img-open">
             </a>
         </div>
     </nav>
@@ -36,7 +36,7 @@
         <p>Welcome to Axiom City.</p>
         <p>Lets test a random Axiom city service ->
             <a href="javascript:void(0);" onclick="ft_randomlink()">
-                <img class="animation btn_random" src="img/block.png" alt="mascotte_block">
+                <img class="animation btn_shadow" src="img/block.png" alt="mascotte_block">
             </a>
         </p>
         <hr>
@@ -46,47 +46,83 @@
     <div class="container">
         <div class="columns">
             <div id="bio">
-                <a class="startup" href="https://axiomcity.github.io/index.html">Axiom City / </a> Axiom City main
-    <p>
-        .
-    </p>
+                <a class="startup" href="https://axiomcity.github.io/index.html">
+                    Axiom City / </a> Axiom City main
+                <p> Accessibilité
+                    <a href="javascript:void(0);" onclick="ft_accessibility()">
+                        <img class="animation btn_shadow" src="img/blind_button.png" alt="accessibility">
+                    </a>
+                <div id="menu_access" class="accessibility">
+                    <p>Réglages Daltonisme.</p>
+                    <a id="protanopie" href="javascript:void(0);" onclick="ft_protanopie()">
+                        <input class="blind_button" type="button" value="Protanopie">
+                    </a>
+                    <a id="deuteranopie" href="javascript:void(0);" onclick="ft_deuteranopie()">
+                        <input class="blind_button" type="button" value="Deuteranopie">
+                    </a>
+                    <a id="tritanopie" href="javascript:void(0);" onclick="ft_tritanopie()">
+                        <input class="blind_button" type="button" value="Tritanopie">
+                    </a>
+                    <a id="achromatopsie" href="javascript:void(0);" onclick="ft_achromatopsie()">
+                        <input  class="blind_button" type="button" value="Achromatopsie">
+                    </a>
+                    <a id="normal_color" href="javascript:void(0);" onclick="ft_normal_color()">
+                        <input  class="blind_button" type="button" value="Normal">
+                    </a>
+                    <hr>
+                    <div>
+                        <p>Réglages de l'image.</p>
+                        <input type="range" id="contrast_range" min="0" max="255" value="128">
+                        <p> Contrast : <span id="contrast_value">Err</span></p>
+                        <input type="range" id="color_range" min="0" max="255" value="128">
+                        <p> Hue Color : <span id="color_value">Err</span></p>
+                        <input type="range" id="other_range" min="0" max="255" value="128">
+                        <p> Other : <span id="other_value">Err</span></p>
+                        <hr>
+                    </div>
+                </div>
 
-    <p>.
-    </p>
+                </p>
+                <p>
+                    .
+                </p>
 
-    <p>
-        .
-    </p>
+                <p>.
+                </p>
+
+                <p>
+                    .
+                </p>
 
                 <a href="https://axiomcity.github.io/feedback.html" alt="contact-me-link">Send me feedback.</a>
             </div>
-<!-- thesidemenuishere-->
+            <!-- thesidemenuishere-->
             <form class="insideoftheform" method="get" action="" id="contact">
                 <div class="column search-sidebar">
                     <div>
                         <input required="" class="is-button search-bar" name="search" type="text" id="bar" placeho="">
                         <input id="search" class="is-button search-button" type="submit" value="Search">
                     </div>
-                <span>daily news</span>
-                <ul>
-                    <li><a href="https://axiomcity.github.io/presentation.html">Raspberry PI Project</a></li>
-                    <li><a href="https://linux.how2shout.com/how-to-install-qemu-kvm-on-ubuntu-22-04-20-04-lts">QEMU installation</a></li>
-                </ul>
-                <span>Links for me</span>
-                <ul>
-                    <li><a href="https://check.torproject.org/?lang=fr">Tor Check</a></li>
-                    <li><a href="https://crispy.cat/">CrispyCat friend</a></li>
-                    <li><a href="https://archlinux.org/packages">Like birds ?</a></li>
-                </ul>
-                <span>test</span>
-                <ul>
-                    <li><a href="https://check.torproject.org/?lang=fr">Tor Check</a></li>
-                    <li><a href="https://crispy.cat/">CrispyCat friend</a></li>
-                </ul>
+                    <span>daily news</span>
+                    <ul>
+                        <li><a href="https://axiomcity.github.io/presentation.html">Raspberry PI Project</a></li>
+                        <li><a href="https://linux.how2shout.com/how-to-install-qemu-kvm-on-ubuntu-22-04-20-04-lts">QEMU installation</a></li>
+                    </ul>
+                    <span>Links for me</span>
+                    <ul>
+                        <li><a href="https://check.torproject.org/?lang=fr">Tor Check</a></li>
+                        <li><a href="https://crispy.cat/">CrispyCat friend</a></li>
+                        <li><a href="https://archlinux.org/packages">Like birds ?</a></li>
+                    </ul>
+                    <span>test</span>
+                    <ul>
+                        <li><a href="https://check.torproject.org/?lang=fr">Tor Check</a></li>
+                        <li><a href="https://crispy.cat/">CrispyCat friend</a></li>
+                    </ul>
 
-        </div></form>
-    </div>
-</div></section>
+                </div></form>
+        </div>
+    </div></section>
 
 <footer>
     <section class="footer">

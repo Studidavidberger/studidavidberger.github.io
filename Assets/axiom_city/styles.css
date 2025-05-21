@@ -1,4 +1,6 @@
-/* styles.css for axiom city From HDB HUB DAVID BERGER */
+/* styles.css - axiomcity - HDB - HUB DAVID BERGER */
+/* Ressources #000B10, #80d5ff, #002b40, #bfeaff, #001520, #002b40, #0AF, #555, #FFF*/
+
 * {
     box-sizing: inherit;
     text-decoration: none;
@@ -9,7 +11,9 @@
 html {
     font-size: 18px;
     text-rendering: optimizeLegibility;
+}
 
+cursor {
 }
 
 body {
@@ -55,6 +59,8 @@ a {
     font-style: revert;
     font-weight: normal;
     font-size: 0.75em;
+    cursor: url("img/cursor.png"), auto;
+
 }
 
 h1 {
@@ -62,9 +68,6 @@ h1 {
     margin: 24px;
 }
 
-p {
-    margin: 24px;
-}
 
 footer {
     color: #0080bf;
@@ -105,7 +108,64 @@ section {
     height: 500px;
     color: white;
     border-radius: 10px;
+    position: absolute;
+    width: 40px;
 
+}
+
+input[type="range"] {
+    height: 5px;
+    background: linear-gradient(to right, #002B40, #0080bf);
+    border-radius: 5px;
+    opacity: .8;
+    transition: opacity .2s;
+}
+
+input[type="range"]:hover {
+    opacity: 1;
+}
+
+#contrast_range::-moz-range-progress {
+    background: linear-gradient(to right, black, white);
+    border-radius: 5px;
+    height: 10px;
+}
+
+#color_range::-moz-range-progress {
+    background: linear-gradient(to right, red, green, blue);
+    border-radius: 5px;
+    height: 10px;
+}
+
+#other_range::-moz-range-progress {
+    background: linear-gradient(to right, #00f0ff, #8a2be2);
+    border-radius: 5px;
+    height: 10px;
+}
+
+.accessibility {
+    display: none;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    color: #001520;
+    background-color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.accessibility * {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    border-radius: 15px;
+}
+
+.blind_button:hover {
+    background-color: #0080bf;
+    color: #001520;
 }
 
 .topnav {
@@ -116,7 +176,6 @@ section {
 .topnav #burger_links {
     display: none;
     flex-direction: column;
-
 }
 
 .topnav a {
@@ -151,9 +210,6 @@ section {
 
 .logo:hover {
     background-color: #001A26;
-    cursor: pointer;
-
-
 }
 
 .topnav a {
@@ -174,10 +230,10 @@ input,
 textarea,
 select {
     background-color: #002b40;
-    border: solid 1px #0AF;
+    border: solid 2px #0AF;
     border-radius: 4px;
     color: #0AF;
-
+    padding: 10px 20px;
 }
 
 .column {
@@ -206,7 +262,6 @@ select {
 .button:hover {
     color: #0AF;
     background-color: #00121D;
-    cursor: pointer;
 }
 
 .is-button {
@@ -291,14 +346,14 @@ select {
     display: flex;
 }
 
-.btn_random {
+.btn_shadow {
     max-height: 30px;
     position: relative;
     top: 10px;
     box-shadow: 5px 10px 5px #000;
 }
 
-.btn_random:hover {
+.btn_shadow:hover {
     border-radius: 5px;
     outline: 5px solid #fff;
 }
@@ -372,6 +427,11 @@ select {
         margin: 0px;
         width: 80%;
         padding: 10%;
+    }
+    .accessibility {
+        position: relative;
+        width: auto;
+    }
     }
 }
 
