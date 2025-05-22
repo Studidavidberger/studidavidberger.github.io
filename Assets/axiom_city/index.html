@@ -12,19 +12,19 @@
 <header>
     <nav>
         <div id="navbar" class="topnav">
-            <a href="javascript:void(0);" onclick="ft_burger()" id="axiomcity_burger" class="logo" alt="axiom-city-menu">
-                <img src="img/logo2.png" style="max-height: 60px;"></a>
+            <a href="javascript:void(0);" onclick="ft_burger()" id="axiomcity_burger" alt="axiom-city-menu">
+                <img class="icon" src="img/logo2.png"></a>
             <div id="burger_links">
-                <a class="button" href="https://axiomcity.github.io/index.html">Menu</a>
-                <a class="button" href="https://axiomcity.github.io/chatroom.html">Discussions</a>
-                <a class="button" href="https://axiomcity.github.io/profil.html">Portfolio</a>
-                <a class="button" href="https://axiomcity.github.io/builds.html">Projets</a>
-                <a class="button" href="https://axiomcity.github.io/photos.html">Bibliothèque</a>
+                <a class="link" href="https://axiomcity.github.io/index.html">Menu</a>
+                <a class="link" href="https://axiomcity.github.io/chatroom.html">Discussions</a>
+                <a class="link" href="https://axiomcity.github.io/profil.html">Portfolio</a>
+                <a class="link" href="https://axiomcity.github.io/builds.html">Projets</a>
+                <a class="link" href="https://axiomcity.github.io/photos.html">Bibliothèque</a>
             </div>
         </div>
         <div>
             <a href="javascript:void(0);" onclick="ft_burger()">
-                <img class="logo" style="max-height: 60px" src="img/burger01.png" alt="burger-img-open">
+                <img class="icon" src="img/burger01.png" alt="burger-img-open">
             </a>
         </div>
     </nav>
@@ -53,7 +53,7 @@
                         <img class="animation btn_shadow" src="img/blind_button.png" alt="accessibility">
                     </a>
                 <div id="menu_access" class="accessibility">
-                    <p>Réglages Daltonisme.</p>
+                    <a href="blind-people.html">Réglages Daltonisme.</a><br>
                     <a id="protanopie" href="javascript:void(0);" onclick="ft_protanopie()">
                         <input class="blind_button" type="button" value="Protanopie">
                     </a>
@@ -69,16 +69,17 @@
                     <a id="normal_color" href="javascript:void(0);" onclick="ft_normal_color()">
                         <input  class="blind_button" type="button" value="Normal">
                     </a>
-                    <hr>
                     <div>
-                        <p>Réglages de l'image.</p>
+                        <a href="blind-people.html#colors">Réglages ouleurs</a>
+                        <hr>
                         <input type="range" id="contrast_range" min="0" max="255" value="128">
                         <p> Contrast : <span id="contrast_value">Err</span></p>
+                        <hr>
                         <input type="range" id="color_range" min="0" max="255" value="128">
                         <p> Hue Color : <span id="color_value">Err</span></p>
+                        <hr>
                         <input type="range" id="other_range" min="0" max="255" value="128">
                         <p> Other : <span id="other_value">Err</span></p>
-                        <hr>
                     </div>
                 </div>
 
@@ -98,29 +99,23 @@
             </div>
             <!-- thesidemenuishere-->
             <form class="insideoftheform" method="get" action="" id="contact">
-                <div class="column search-sidebar">
-                    <div>
-                        <input required="" class="is-button search-bar" name="search" type="text" id="bar" placeho="">
-                        <input id="search" class="is-button search-button" type="submit" value="Search">
-                    </div>
-                    <span>daily news</span>
-                    <ul>
-                        <li><a href="https://axiomcity.github.io/presentation.html">Raspberry PI Project</a></li>
-                        <li><a href="https://linux.how2shout.com/how-to-install-qemu-kvm-on-ubuntu-22-04-20-04-lts">QEMU installation</a></li>
-                    </ul>
-                    <span>Links for me</span>
-                    <ul>
-                        <li><a href="https://check.torproject.org/?lang=fr">Tor Check</a></li>
-                        <li><a href="https://crispy.cat/">CrispyCat friend</a></li>
-                        <li><a href="https://archlinux.org/packages">Like birds ?</a></li>
-                    </ul>
-                    <span>test</span>
-                    <ul>
-                        <li><a href="https://check.torproject.org/?lang=fr">Tor Check</a></li>
-                        <li><a href="https://crispy.cat/">CrispyCat friend</a></li>
-                    </ul>
-
-                </div></form>
+                <div class="flex">
+                    <input id="bar" class="search-bar" name="search" type="text" placeholder="Search in AXCIT database">
+                    <input id="search" class="btn-search" type="submit" value="Search">
+                    <a href="javascript:void(0)" onclick="ft_burger2()">
+                        <img class="btn_burger" src="img/burger01.png" alt="">
+                    </a>
+                </div>
+                <div id="news" class="news">
+                    <hr>
+                    <a href="" >daily news</a>
+                    <hr>
+                    <a href="1" >daily blogs</a>
+                    <a href="1" >daily blogs</a>
+                    <a href="1" >daily blogs</a>
+                    <a href="1" >daily blogs</a>
+                </div>
+            </form>
         </div>
     </div></section>
 

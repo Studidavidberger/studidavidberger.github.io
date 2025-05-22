@@ -7,6 +7,7 @@ const color_value = document.getElementById('color_value');
 const other_range = document.getElementById('other_range');
 const other_value = document.getElementById('other_value');
 const burger = document.getElementById("burger_links");
+const burger2 = document.getElementById("news");
 const menu_access = document.getElementById('menu_access');
 const site = document.getElementById('site');
 
@@ -19,6 +20,16 @@ function ft_burger() {
         burger.style.flexDirection = "column";
     }
 }
+
+// Menu burger 2.
+function ft_burger2() {
+    if (burger2.style.display === "flex") {
+        burger2.style.display = "none";
+    } else {
+        burger2.style.display = "flex";
+    }
+}
+
 
 // Fonction de génération de liens parmi la liste dans la base de donnée.
 function ft_randomlink () {
