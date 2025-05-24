@@ -90,3 +90,4 @@ function ft_achromatopsie () {
 function ft_normal_color () {
     site.style.filter = 'hue-rotate(0deg)';
 }
+

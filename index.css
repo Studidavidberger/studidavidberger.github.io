@@ -35,11 +35,10 @@
 
 }
 
-
-
-
-
-
+.files {
+    display: flex;
+    flex-direction: column;
+}
 
 .custom-img16px {
     max-width: 16px;
