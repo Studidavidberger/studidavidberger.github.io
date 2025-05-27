@@ -1,3 +1,9 @@
+.files_bg {
+    background-color: grey;
+    justify-content: center;
+    text-align: center;
+}
+
 .bg_website, .main, .footer {
     box-sizing: border-box;
     margin: 0;
@@ -38,6 +44,20 @@
 .files {
     display: flex;
     flex-direction: column;
+    margin: 1% 20%;
+    padding: 16px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+.doc {
+    color: #001A26;
+    text-decoration: none;
+}
+
+.doc:hover {
+    background-color: #001A26;
+    color: white;
 }
 
 .custom-img16px {

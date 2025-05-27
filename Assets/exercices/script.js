@@ -44,3 +44,8 @@ async function LocalIP() {
         console.log(error);
     }
 }
+
+async function getCours() {
+
+    await LocalIP();
+}
