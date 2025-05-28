@@ -39,7 +39,7 @@ function ft_randomlink () {
         'http://localhost/3',
         'http://localhost/4',
         'http://localhost/5'
-        ];
+    ];
     let random = Math.floor(Math.random() * links.length);
     let url = links[random];
     console.log(url, "on", links.length);
@@ -75,19 +75,27 @@ function ft_accessibility () {
     }
 }
 
-function ft_protanopie() {
-    site.style.filter = 'hue-rotate(45deg)';
-}
-function ft_deuteranopie () {
-    site.style.filter = 'hue-rotate(90deg)';
-}
-function ft_tritanopie () {
-    site.style.filter = 'hue-rotate(180deg)';
-}
-function ft_achromatopsie () {
-    site.style.filter = 'grayscale(1)';
-}
-function ft_normal_color () {
-    site.style.filter = 'hue-rotate(0deg)';
-}
+site.style.filter = localStorage.getItem('style');
 
+function ft_setStyle (style) {
+
+    
+    switch (style.id) {
+        case 'protanopie':
+            site.style.filter = 'hue-rotate(45deg)';
+            break;
+        case 'deuteranopie':
+            site.style.filter = 'hue-rotate(90deg)';
+            break;
+        case 'tritanopie':
+            site.style.filter = 'hue-rotate(180deg)';
+            break;
+        case 'achromatopsie':
+            site.style.filter = 'grayscale(1)';
+            break;
+        case 'remover':
+            site.style.filter = 'hue-rotate(0deg)';
+            break;
+    }
+    localStorage.setItem('style', site.style.filter);
+}

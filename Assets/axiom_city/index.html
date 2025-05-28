@@ -54,20 +54,20 @@
                     </a>
                 <div id="menu_access" class="accessibility">
                     <a href="blind-people.html">Réglages Daltonisme.</a><br>
-                    <a id="protanopie" href="javascript:void(0);" onclick="ft_protanopie()">
+                    <a id="protanopie" href="javascript:void(0);" onclick="ft_setStyle(protanopie)">
                         <input class="blind_button" type="button" value="Protanopie">
                     </a>
-                    <a id="deuteranopie" href="javascript:void(0);" onclick="ft_deuteranopie()">
+                    <a id="deuteranopie" href="javascript:void(0);" onclick="ft_setStyle(deuteranopie)">
                         <input class="blind_button" type="button" value="Deuteranopie">
                     </a>
-                    <a id="tritanopie" href="javascript:void(0);" onclick="ft_tritanopie()">
+                    <a id="tritanopie" href="javascript:void(0);" onclick="ft_setStyle(tritanopie)">
                         <input class="blind_button" type="button" value="Tritanopie">
                     </a>
-                    <a id="achromatopsie" href="javascript:void(0);" onclick="ft_achromatopsie()">
+                    <a id="achromatopsie" href="javascript:void(0);" onclick="ft_setStyle(achromatopsie)">
                         <input  class="blind_button" type="button" value="Achromatopsie">
                     </a>
-                    <a id="normal_color" href="javascript:void(0);" onclick="ft_normal_color()">
-                        <input  class="blind_button" type="button" value="Normal">
+                    <a id="remover" href="javascript:void(0);" onclick="ft_setStyle(remover)">
+                        <input  class="blind_button" type="button" value="Default">
                     </a>
                     <div>
                         <a href="blind-people.html#colors">Réglages ouleurs</a>
@@ -125,3 +125,10 @@
         <small>Copyright 2024 - David Berger</small>
     </section>
 </footer>
+
+<!--
+ Fonctioanlitées :
+
+Enregistrer dans un cookie les preferences d'accessibilité utilisateur.
+
+ -->
